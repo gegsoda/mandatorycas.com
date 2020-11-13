@@ -1,0 +1,34 @@
+body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto';
+    background-color: #FFFFFF;
+    font-family:'Roboto';
+    color: #333;
+    font-weight: 300;
+    line-height: 1.6;
+    }
+    
+.titlebar{
+    background-color:#333;
+    position: fixed;
+    width: 100%;
+    padding: 14px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */  
+    }
+    
+.content{
+      padding-top: 64px;
+      padding-left: 14px;
+      padding-right: 14px;
+      text-align: left;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
