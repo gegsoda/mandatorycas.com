@@ -1,31 +1,13 @@
 body{
-    font-size: 20px;
     margin: 0;
-    padding: 0;
+    text-align: left;
     font-family:'Roboto';
-    background-color: #FFFFFF;
-    font-family:'Roboto';
-    color: #333;
-    font-weight: 300;
+    font-size: 20px;
     line-height: 1.6;
-    }
-    
-.titlebar{
-    background-color:#333;
-    position: fixed;
-    width: 100%;
-    padding: 14px;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */  
-    }
-    
-.content{
-      padding-top: 64px;
-      padding-left: 14px;
-      padding-right: 14px;
-      text-align: left;
 }
 
 a {
@@ -33,6 +15,49 @@ a {
     text-decoration: none;
 }
 
-.hyperlink{
-    color:#FF3F7F;
+div{
+    display: inline-block;
+}
+
+.red{color:#CC999D; transition: color 0.3s;}
+.red:hover{color:#FF3F4F}
+.redsolid{color:#FF3F4F}
+.green{color:#99CCB6; transition: color 0.3s;}
+.green:hover{color:#3FFFAC;}
+.greensolid{color:#3FFFAC;}
+.blue{color:#99BFCC; transition: color 0.3s;}
+.blue:hover{color:#3FCCFF;}
+.bluesolid{color:#3FCCFF;}
+.yellow{color:#C7CC99; transition: color 0.3s;}
+.yellow:hover{color:#EFFF3F;}
+.yellowsolid{color:#EFFF3F;}
+.geg{color:#FF0065;}
+
+.frame{
+    border: #F4F4F4;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 0.4s;
+}
+.frame:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);}
+
+.titlebar{
+    background-color:#333;
+    position: fixed;
+    width: 100%;
+    padding: 14px;
+    margin-right: -4px;
+}
+
+.content
+{
+    margin: 30px 300px 30px 300px;
+    color: #333;
+    font-weight: lighter;
+    padding-top: 64px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
