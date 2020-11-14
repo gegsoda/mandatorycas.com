@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    text-align: left;
     font-family:'Roboto';
     font-size: 20px;
     line-height: 1.6;
@@ -19,18 +18,18 @@ div{
     display: inline-block;
 }
 
-.red{color:#CC999D; transition: color 0.3s;}
-.red:hover{color:#FF3F4F}
+.red{color:#CC999D; transition: color 0.1s, font-weight 0.1s;}
+.red:hover{font-weight: bold; color:#FF3F4F}
 .redsolid{color:#FF3F4F}
-.green{color:#99CCB6; transition: color 0.3s;}
-.green:hover{color:#3FFFAC;}
+.green{color:#99CCB6; transition: color 0.1s, font-weight 0.1s;}
+.green:hover{font-weight: bold; color:#3FFFAC;}
 .greensolid{color:#3FFFAC;}
-.blue{color:#99BFCC; transition: color 0.3s;}
-.blue:hover{color:#3FCCFF;}
+.blue{color:#99BFCC; transition: color 0.1s, font-weight 0.1s;}
+.blue:hover{font-weight: bold; color:#3FCCFF;}
 .bluesolid{color:#3FCCFF;}
-.yellow{color:#C7CC99; transition: color 0.3s;}
-.yellow:hover{color:#EFFF3F;}
-.yellowsolid{color:#EFFF3F;}
+.yellow{color:#CCCC99; transition: color 0.1s, font-weight 0.1s;}
+.yellow:hover{font-weight: bold; color:#FFFF3F;}
+.yellowsolid{color:#FFFF3F;}
 .geg{color:#FF0065; transition: font-weight 0.1s;}
 .geg:hover{font-weight: bold;}
 .gegsolid{color:#FF0065;}
@@ -44,7 +43,7 @@ div{
     border-width: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.4s, color 0.4s;
+    transition: box-shadow 0.3s, color 0.3s;
     width: 100%;
 }
 .framered:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#FF3F4F;}
@@ -56,7 +55,7 @@ div{
     border-width: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.4s, color 0.4s;
+    transition: box-shadow 0.3s, color 0.3s;
     width: 100%;
 }
 .framegreen:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#3FFFAC;}
@@ -68,7 +67,7 @@ div{
     border-width: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.4s, color 0.4s;
+    transition: box-shadow 0.3s, color 0.3s;
     width: 100%;
 }
 .frameblue:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#3FCCFF;}
@@ -80,11 +79,10 @@ div{
     border-width: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.4s, color 0.4s;
+    transition: box-shadow 0.3s, color 0.3s;
     width: 100%;
 }
 .frameyellow:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#EFFF3F;}
-
 
 .frametext{
     color: #333;
@@ -102,14 +100,12 @@ div{
 
 .content
 {
-    margin-top: 48px;
-    margin-right: 7%;
-    margin-left: 1.3%;
-    margin-bottom: 36px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 96px;
     color: #333;
     font-weight: lighter;
-    padding-top: 32px;
-    padding-left: 14px;
-    padding-right: 14px;
-    align-content: center;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 20px;
 }
