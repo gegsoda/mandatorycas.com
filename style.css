@@ -1,3 +1,13 @@
+.joop{
+    width: 500px;
+    height: 500px;
+    transition: width 1s;
+}
+
+.joop:hover{
+    width: 500px;
+}
+
 body{
     margin: 0;
     font-family:'Roboto';
