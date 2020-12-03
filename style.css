@@ -8,6 +8,15 @@ body{
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */  
+    background-image: url("/media/mountain.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+.contentcolour{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -20,11 +29,10 @@ div{
 }
 
 .red{color:#CC999D; transition: color 0.1s, font-weight 0.1s;}
-.red:hover{font-weight: bold; color:#FF3F4F}
-.redsolid{color:#FF3F4F}
-.green{color:#99CCB6; transition: color 0.1s, font-weight 0.1s;}
+.red:hover{font-weight: bold; color:#FF3F4F;}
+.green{color:#3FFFAC;}
 .green:hover{font-weight: bold; color:#3FFFAC;}
-.greensolid{color:#3FFFAC;}
+.greensolid{}
 .blue{color:#99BFCC; transition: color 0.1s, font-weight 0.1s;}
 .blue:hover{font-weight: bold; color:#3FCCFF;}
 .bluesolid{color:#3FCCFF;}
@@ -36,7 +44,7 @@ div{
 .gegsolid{color:#FF0065;}
 
 
-.framered{
+.frame{
     color: #CC999D;
     border: #F4F4F4;
     border-style: solid;
@@ -47,56 +55,7 @@ div{
     transition: box-shadow 0.3s, color 0.3s;
     width: 100%;
 }
-.framered:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#FF3F4F;}
-.framegreen{
-    color: #99CCB6;
-    border: #F4F4F4;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.3s, color 0.3s;
-    width: 100%;
-}
-.framegreen:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#3FFFAC;}
-.frameblue{
-    color: #99BFCC;
-    border: #F4F4F4;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.3s, color 0.3s;
-    width: 100%;
-}
-.frameblue:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#3FCCFF;}
-.frameyellow{
-    color: #C7CC99;
-    border: #F4F4F4;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.3s, color 0.3s;
-    width: 100%;
-}
-.frameyellow:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color:#EFFF3F;}
-
-.framepink{
-    color: #FFBFD8;
-    border: #F4F4F4;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.3s, color 0.3s;
-    width: 100%;
-}
-.framepink:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); color: #FF0065;}
+.frame:hover{box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);}
 
 .frameinvisible{
     border: #FFFFFF00;
@@ -108,15 +67,14 @@ div{
     width: 100%;
 }
 
-
-
 .frametext{
     color: #333;
     font-weight: lighter;
 }
 
 .titlebar{
-    background-color:#333;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(1px);
     position: fixed;
     width: 100%;
     padding: 14px;
@@ -129,6 +87,7 @@ div{
     margin: 0 auto;
     width: 90%;
     margin-top: 96px;
+    background-color: #FFFFFF;
     color: #333;
     font-weight: lighter;
     text-align: left;
